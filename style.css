@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #000000a9;
+  backdrop-filter: blur(10px);
+  justify-content: center;
+  z-index: 99;
+}
+
+.navbar__collection {
+  width: 60%;
+  height: 100%;
+  background-color: transparent;
+  justify-content: space-between;
+  list-style-type: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.navbar__collection li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar__collection i {
+  font-size: 15px;
+}
+
+.banner__iphone-14 {
+  width: 100%;
+  height: 90vh;
+  background-image: url(https://www.apple.com/v/home/aw/images/heroes/iphone-14/hero_iphone14__fjmsqstr1ceq_largetall.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner__iphone-14 h1,
+.banner__watch img,
+.iPhone__14 h1,
+.iPad h1,
+.watch__ultra img,
+.airpods__pro h1,
+.macbook h1,
+.apple__pay h1 {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.banner__iphone-14 h3,
+.banner__watch h3,
+.iPhone__14 h3,
+.iPad h3,
+.watch__ultra h3,
+.airpods__pro h3,
+.macbook h3,
+.apple__pay h3 {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.iPhone__14 h1,
+.iPad h1,
+.airpods__pro h1,
+.macbook h1 {
+  top: 16%;
+}
+
+.iPhone__14 h3,
+.iPad h3,
+.airpods__pro h3,
+.macbook h3 {
+  top: 25%;
+}
+
+.link__container {
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  color: #277dd4;
+  transform: translateX(-50%);
+}
+
+.link__container a,
+.banner__wow a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.banner__wow {
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://www.apple.com/v/home/aw/images/heroes/holiday-2022/hero_endframe__8xosbwdvpaqe_largetall.jpg);
+  position: relative;
+  color: #fff;
+}
+
+.banner__wow h1 {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.banner__wow h3 {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.banner__wow a {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #277dd4;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.banner__watch {
+  background-image: url(https://www.apple.com/v/home/aw/images/heroes/apple-watch-series-8/hero_apple_watch_series_8__bjc1ok5mkjua_largetall.jpg);
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.banner__watch h3 {
+  color: #f7f7f7;
+}
+
+.iPhone__14 {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 50%;
+  height: 90vh;
+  background-image: url(https://www.apple.com/v/home/aw/images/promos/iphone-14-pro/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+}
+
+.flexbox {
+  width: 100%;
+  height: 80vh;
+}
+
+.iPad {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 50%;
+  height: 90vh;
+  background-image: url(https://www.apple.com/v/home/aw/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
+}
+
+.iPhone__14 h1 {
+  color: #fff;
+}
+
+.iPhone__14 h3 {
+  color: #fff;
+  font-size: 17px;
+}
+
+.iPad h1 {
+  color: black;
+}
+
+.iPad h3 {
+  color: black;
+  font-size: 17px;
+}
+
+.cards {
+  width: 100%;
+  height: 80vh;
+}
+
+.watch__ultra {
+  background-image: url(https://www.apple.com/v/home/aw/images/promos/apple-watch-ultra/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 50%;
+  height: 90vh;
+}
+
+.airpods__pro {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 50%;
+  height: 90vh;
+  background-image: url(https://www.apple.com/v/home/aw/images/promos/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_large.jpg);
+}
+
+.airpods__pro h1 {
+  color: #ffff;
+}
+
+.airpods__pro h3 {
+  color: #ffff;
+  font-size: 17px;
+}
+
+.watch__ultra h3 {
+  font-size: 17px;
+  color: black;
+}
+
+.card__pay {
+  width: 100%;
+  height: 80vh;
+}
+
+.macbook {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 50%;
+  height: 90vh;
+  background-image: url(https://www.apple.com/v/home/aw/images/promos/macbook-air/promo_macbookair__fywl7i82fueu_large.png);
+}
+
+.apple__pay {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  width: 50%;
+  height: 90vh;
+  background-image: url(https://www.apple.com/v/home/aw/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg);
+}
+
+.apple__pay h3 {
+  font-size: 17px;
+  color: black;
+}
+
+.macbook h3 {
+  color: black;
+  font-size: 17px;
+}
+
+.text {
+  width: 100%;
+  max-width: 980px;
+  margin: auto;
+}
+
+.text p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #6e6e73;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.footer {
+  width: 100%;
+  height: 60vh;
+  margin: 50px 0;
+  background-color: #f5f5f7;
+}
+.footer__container {
+  width: 100%;
+  max-width: 980px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: auto;
+}
+.footer__collection {
+  width: 100%;
+  list-style-type: none;
+}
+
+.footer__collection li {
+  font-weight: 100;
+  color: #424245;
+  font-size: 13px;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.ways__to__shop {
+  width: 100%;
+  max-width: 980px;
+  color: #6e6e73;
+  font-size: 13px;
+  margin: auto;
+}
+
+.copyright__wrapper {
+  width: 100%;
+  height: 50px;
+  margin: 20px auto;
+  border-top: 1px solid #bcbcbc;
+  justify-content: space-between;
+  max-width: 980px;
+  color: #6e6e73;
+  font-size: 13px;
+}
+
+.copyright__collection {
+  list-style-type: none;
+}
+
+.copyright__collection li {
+  margin: 0 10px;
+}
