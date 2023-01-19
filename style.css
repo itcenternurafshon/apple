@@ -21,10 +21,11 @@
   backdrop-filter: blur(10px);
   justify-content: center;
   z-index: 99;
+  padding: 0 15%;
 }
 
 .navbar__collection {
-  width: 60%;
+  width: 100%;
   height: 100%;
   background-color: transparent;
   justify-content: space-between;
@@ -208,9 +209,6 @@
   height: 80vh;
 }
 
-
-
-
 .watch__ultra {
   background-image: url(https://www.apple.com/v/home/aw/images/promos/apple-watch-ultra/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
   background-repeat: no-repeat;
@@ -343,4 +341,46 @@
 
 .copyright__collection li {
   margin: 0 10px;
+}
+
+.navbar-md {
+  display: none;
+}
+
+@media screen and (max-width: 1224px) {
+  .navbar {
+    padding: 0 5%;
+  }
+  .navbar__collection {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .navbar {
+    display: none;
+  }
+
+  .navbar-md {
+    display: flex;
+    color: #fff;
+    padding: 0 20px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .text__container > h1 {
+    font-size: 35px;
+  }
+
+  .text__container > h3 {
+    font-size: 30px;
+    top: 20%;
+  }
+
+  .link__container {
+    top: 25%;
+    font-size: 25px;
+  }
 }
